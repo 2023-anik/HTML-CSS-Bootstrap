@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+</head>
+<body>
+    <!-- <h1>Hello World!</h1> -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr>
+    <p>Sample paragraph</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aperiam ducimus nemo est aut corrupti! Veritatis, explicabo qui. Quibusdam natus non iste, explicabo esse incidunt eos obcaecati in officia aliquam voluptatum libero, et eum, ratione quasi temporibus animi facere! Suscipit!</p>
+    <hr>
+    <!--Absolute link-->
+    <a href="https://www.google.com/">Google</a>
+    <br>
+    <a href="https://www.google.com/">Facebook</a>
+    <br>
+
+    <!--Relative link-->
+    <a href="hello.html">Go to Hello</a>
+
+    <!--Absolute link-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVKcu8lPh8fc3PYOK5zDVGGx7skArivatD0A&s" alt="absolute image"/>
+    
+    <!--Relative link-->
+    <img src="images.png" alt="relative image"/>
+    <br>
+    <hr>
+    <b>BOLD TEXT</b>
+    <br>
+    <i>Italic TEXT</i>
+    <br>
+    <u>Underlined TEXT</u>
+    <hr>
+    <br>
+    <br>
+    <p><b><i><u>Lorem</u></i></b> ipsum dolor <b>sit</b> amet <u>consectetur</u> adipisicing elit. <i>Iusto, ullam!</i>.</p>
+
+    <big>This tag shows big text</big>
+    <hr>
+    <small>This tag shows small text</small>
+    <hr>
+    <br>
+    <br>
+    <!-- Subscript & Superscript Tag -->
+     <p>H<sub>2</sub>O</p>
+     <p>3<sup>2</sup> = 9</p>
+    <hr>
+    
+    <!-- Pre Tag: Used to display text as it is (without ignoring spaces & next line) -->
+    <pre>Lorem,
+        ipsum dolor sit amet            consectetur adipisicing elit.
+        Libero odit totam reiciendis natus deleniti adipisci facilis animi reprehenderit eaque harum!
+    </pre>
+
+    <!-- Code Tag: Used to display code -->
+    <code>
+        <p>echo "Hello World";</p>
+    </code>
+    <hr><br>
+    <!-- Strong Tag: Used to indecate that the text is important -->
+    <p>This is a <strong>Important</strong> tag.</p>
+
+    <!-- Em Tag: Used to indecate that the text is Emphasized -->
+    <p>This is a <em>Emphasized</em> tag.</p>
+
+    <!-- Mark Tag: Used to highlight the text -->
+    <p>This is a <mark>Highlighted</mark> tag.</p>
+
+    <!-- Unordered lists -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Ordered lists -->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- Definition lists -->
+    <dl>
+        <dt>Item 1</dt> <!-- dt: Definition Term -->
+        <dd>Definition 1</dd> <!-- dd: Definition Description -->
+        <dt>Item 2</dt>
+        <dd>Definition 2</dd>
+        <dt>Item 3</dt>
+        <dd>Definition 3</dd>
+    </dl>
+
+    <!-- Nested lists -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Sub Item 1</li>
+                <li>Sub Item 2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Table -->
+    <table border="1">
+        <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Col 1</td>
+            <td>Row 3, Col 2</td>
+            <td>Row 3, Col 3</td>
+        </tr>
+    </table>
+
+    <!--Div Tag: Used to group elements-->
+    <!--It has no effect on the layout unless it is stylied by CSS-->
+    <div>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+    </div>
+
+    <!--Span Tag: Used to group inline elements-->
+    <!--It has no effect on the layout unless it is stylied by CSS-->
+    <span>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+    </span>
+
+    <!--Form Tag: Used to create a form-->
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label> <!--label tag is used to give a name to the input field-->
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <br>
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">I agree to the terms and conditions</label>
+        <br>
+        <!-- alternative to checkbox -->
+        <label for="terms">
+            <input type="checkbox" name="terms" id="terms">Accept terms and conditions
+        </label>
+        <br>
+
+        <!-- Radio buttons -->
+         <label for="male">
+            <input type="radio" id="male" name="gender" value="male" checked>Male<!--checked: by default this radio button will be selected-->
+         </label>
+         <label for="female">
+            <input type="radio" id="female" name="gender" value="female">Female
+         </label>
+         <label for="other">
+            <input type="radio" id="other" name="gender" value="other">Other
+         </label>
+    </form>
+    <br>
+</body>
+</html>
