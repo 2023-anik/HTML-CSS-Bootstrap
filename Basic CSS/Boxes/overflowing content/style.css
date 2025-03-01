@@ -1,0 +1,46 @@
+h2, p{
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+h2{
+    color: #0088dd;
+    border-bottom: 1px solid #0088dd;
+}
+p{
+    min-height: 10px;
+    max-height: 30px;
+}
+p.one{
+    overflow: hidden;
+}
+p.two{
+    overflow: scroll;
+}
+
+
+p.magi{
+    border-style: solid;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd
+}
+p.khanki{
+    border-style: dotted;
+}
+p.three{
+    border-style: dashed;
+}
+p.four{
+    border-style: double;
+}
+p.five{
+    border-style: groove;
+}
+p.six{
+    border-style: ridge;
+}
+p.seven{
+    border-style: inset;
+}
+p.eight{
+    border-style: outset;
+}

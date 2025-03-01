@@ -1,0 +1,72 @@
+p{
+    width: 275px;
+    border: 5px solid #0088dd;
+    
+}
+
+p.padi{
+    padding: 10px;
+    margin: 50px auto 50px auto;/* 50px top and bottom, auto left and right -> centering content */
+    border-radius: 15px;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+li.coming-soon{
+    display: none;
+}
+
+li.hiding-box{
+    visibility: hidden;
+}
+
+
+.nunu{
+    width: 250px;
+    height: 150px;
+    border: 10px solid;
+    margin-bottom: 30px;
+}
+
+#one{
+    border: 30px solid transparent;
+    border-image: url('http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTagscbMB3oKjX9jaZMsDi5Nit1x3kK8_UKKI1P7qNaaQLLoDnY2Tjk8L-AP0CAhHYZOOqvIsbWlJsXC2K5HsE');
+    box-shadow: 15px -15px 5px #888888;
+    
+}
+#two{
+    box-shadow: 15px 15px 5px #888888;
+}
+#three{
+    box-shadow: -15px -15px 5px #888888;
+}
+#four{
+    box-shadow: -15px 15px 5px #888888;
+}
+#five{
+    box-shadow: 15px 0px 5px #888888;
+}
+#six{
+    box-shadow: 0px 15px 5px #888888;
+}
+#seven{
+    box-shadow: -15px 0px 5px #888888;
+}
+
+.heda1, .heda2, .heda3{
+    width: 250px;
+    height: 250px;
+}
+
+.heda1{
+    border-top-left-radius: 80px 50px;
+}
+.heda2{
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+.heda3{
+    /* border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%; */
+    border-radius: 100%;
+}

@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('Chunkfive-webfont.eot');
+}
+/*@font-face allows you to use a font, even if it is not installed on the coumputer of the user*/
+
+body{
+    font-family: Georgia, Times, serif;
+    font-size: 12px;
+    /*default value of font-size is 16px*/
+    /*16px = 100%=1em*/
+    /*12px = 75% = 0.75em*/
+
+}
+h1{
+    font-family: arial, verdana, sans-serif;
+    font-family: ChunkFiveRegular, Georgia, Times, serif;
+    font-size: 200%;
+    /* when body font-size is 12px, h1 font-size is 24px*/
+    /* 24px = 200% = 1.5em */
+    text-transform: uppercase;/*uppercase, lowercase, capitalize*/
+    letter-spacing: 0.2em;
+    /* 0.2em = 2px */
+    text-shadow: 2px -2px 3px #6ece00;
+    /* 2px = horizontal shadow */
+    /* -2px = vertical shadow */
+    /* 3px = blur radius */
+    /* #6ece00 = color of shadow */
+}
+
+h2{
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+}
+
+.credit{
+    font-weight: bold;/*bold, normal, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800, 900*/
+    font-style: italic;/*normal, italic, oblique*/
+    text-decoration: underline;/*none, underline, overline, line-through*/
+    word-spacing: 0.5em;
+    /* 1em = 12px */
+    /* 1em = 100% */
+    text-align: right;/*left, right, center, justify*/
+}
+
+p{
+    line-height: 1.4em;
+    text-align: justify;
+    text-indent: 2em;
+}
+p.intro:first-letter{
+    font-size: 200%;
+}
+p.intro:first-line{
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: deeppink;
+}
+a:visited{
+    color: #6ece00;
+}
+a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+a:active{
+    color: #0000ff;
+}
+/*a:link = unvisited link*/
+/*a:visited = visited link*/
+/*a:hover = mouse over link*/
+/*a:active = selected link*/
+
+input{
+    padding: 6px 12px 6px 12px;
+    /* 6px = top padding */
+    /* 12px = right padding */
+    /* 6px = bottom padding */
+    /* 12px = left padding */
+    border: 1px solid #665544;
+    color: #363333;
+}
+input[type="submit"]:hover{
+    background-color: #665544;
+    color: white;
+}
+input[type="submit"]:active{
+    background-color: rgb(64, 189, 48);
+}
+input.text{
+    color: #0c0a0a;
+}
+input[type="text"]:focus{
+    background-color: #665544;
+}

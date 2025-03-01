@@ -27,11 +27,18 @@
     <a href="hello.html">Go to Hello</a>
 
     <!--Absolute link-->
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVKcu8lPh8fc3PYOK5zDVGGx7skArivatD0A&s" alt="absolute image"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVKcu8lPh8fc3PYOK5zDVGGx7skArivatD0A&s" alt="absolute image" title="This is a fucking pic"/>
     
     <!--Relative link-->
     <img src="images.png" alt="relative image"/>
     <br>
+
+    <!-- figure tag: Used to display an image with a caption -->
+    <figure>
+        <img src="https://i.pinimg.com/736x/d0/d2/36/d0d236718ee188ca9c3c8999504d2250.jpg" alt="Birds image" title="This is a fucking pic(2)"/>
+        <figcaption>This is a caption</figcaption>
+    </figure>
+
     <hr>
     <b>BOLD TEXT</b>
     <br>
@@ -54,6 +61,48 @@
      <p>3<sup>2</sup> = 9</p>
     <hr>
     
+    <!--strong tag: Used to indecates that the text is important-->
+    <p>This is a <strong>Important</strong> tag.</p>
+
+    <!--em tag: Used to indecates that the text is Emphasized-->
+    <p>This is a <em>Emphasized</em> tag.</p>
+
+    <!-- blockquote tag: Used to display a quote -->
+    <blockquote cite="https://www.google.com/">
+        <p>This is a quote</p>
+    </blockquote>
+
+    <!-- q tag: Used to display a quote -->
+    <q cite="#">This is a quote</q>
+
+    <!-- cite tag: Used to display the source of the quote -->
+    <cite>This is the source of the quote (https://www.google.com/)</cite>
+    <br>
+
+    <!-- abbr tag: Used to display an abbreviation -->
+    <p>Thsi is a <abbr title="Hyper Text Markup Language">HTML</abbr> Language</p>
+
+    <!-- Defination Tag: Used to display a defination when you explain a term -->
+    <p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
+
+    <!--address tag: Used to display an address-->
+    <address>
+        <p>John Doe</p>
+        <p>
+            123 Main Street<br>
+            Springfield, IL 62701<br>
+            <a href="mailto: anik.sen.vuban@gmail.com">Email Jon</a>
+        </p>
+    </address>
+
+    <!-- S Tag: Used to display text that is no longer accurate or relevant -->
+    <!-- <p><s>This is no longer accurate</s></p> -->
+    <p>Laptop Computer:</p>
+    <p><s>Was $995</s></p>
+    <p>Now only $795</p>
+
+
+
     <!-- Pre Tag: Used to display text as it is (without ignoring spaces & next line) -->
     <pre>Lorem,
         ipsum dolor sit amet            consectetur adipisicing elit.
@@ -149,41 +198,10 @@
         <p>Paragraph 2</p>
         <p>Paragraph 3</p>
     </span>
-
-    <!--Form Tag: Used to create a form-->
-    <form action="submit.php" method="post">
-        <label for="name">Name:</label> <!--label tag is used to give a name to the input field-->
-        <input type="text" name="name" id="name" placeholder="Enter your name">
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Enter your email">
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password">
-        <br>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-        <br>
-        <input type="checkbox" name="agree" id="agree">
-        <label for="agree">I agree to the terms and conditions</label>
-        <br>
-        <!-- alternative to checkbox -->
-        <label for="terms">
-            <input type="checkbox" name="terms" id="terms">Accept terms and conditions
-        </label>
-        <br>
-
-        <!-- Radio buttons -->
-         <label for="male">
-            <input type="radio" id="male" name="gender" value="male" checked>Male<!--checked: by default this radio button will be selected-->
-         </label>
-         <label for="female">
-            <input type="radio" id="female" name="gender" value="female">Female
-         </label>
-         <label for="other">
-            <input type="radio" id="other" name="gender" value="other">Other
-         </label>
-    </form>
     <br>
+    <a href="links.html" target="_blank">Go to links page</a><br>
+    <a href="table.html" target="_blank">Go to the table page</a><br>
+    <a href="form.html" target="_blank">Go to the form page</a><br>
+    <a href="example_form.html">Go to the example form</a>
 </body>
 </html>
