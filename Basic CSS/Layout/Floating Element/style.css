@@ -1,0 +1,16 @@
+body{
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+
+blockquote{
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+    padding: 10px;
+    margin: 0px 0px 10px 10px;
+    /* 0px for top, 0px for right, 10px for bottom, 10px for left */
+    font-size: 130%;
+    float: right;
+    width: 275px;
+}
