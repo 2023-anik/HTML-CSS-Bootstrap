@@ -1,0 +1,43 @@
+body{
+    width: 90%;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#content{
+    overflow: auto;
+    height: 100%;
+}
+
+
+#nav, #feature, #footer{
+    background-color: #efefef;
+    margin: 1%;
+    /* padding: 1%; */
+}
+
+#nav, #footer{
+    padding: 0.5em 0;
+}
+
+.article{
+    background-color: #efefef;
+    width: 31.4%;
+    margin: 1%;
+    float: left;
+}
+.col3{
+    margin-right: 0%;
+}
+
+#feature, .article{
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+li{
+    display: inline;
+    padding: 0.5em;
+}

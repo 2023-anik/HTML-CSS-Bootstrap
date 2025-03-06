@@ -14,3 +14,11 @@ blockquote{
     float: right;
     width: 275px;
 }
+
+p.example{
+    background-color: #efefef;
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
