@@ -1,0 +1,18 @@
+body{
+    background-image: url("https://plus.unsplash.com/premium_photo-1671156854811-92d6bff8209b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdlYnNpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    /* background-position: left top; */
+    /* background-position: left bottom; */
+    /* background-position: left center; */
+    /* background-position: right top; */
+    /* background-position: right bottom; */
+    /* background-position: right center;  */
+    /* background-position: center top; */
+    /* background-position: center bottom; */
+    /* background-position: center center; */
+    /* background-position: 70% 10%; */
+}
