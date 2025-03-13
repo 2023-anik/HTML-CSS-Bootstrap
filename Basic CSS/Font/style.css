@@ -1,0 +1,136 @@
+/* font-style */
+li.normal{
+    font-style: normal;
+}
+
+li.italic{
+    font-style: italic;
+}
+
+li.oblique{
+    font-style: oblique;
+}
+
+/* font-weight */
+li.normal{
+    font-weight: normal;
+}
+li.bold{
+    font-weight: bold;
+}
+li.bolder{
+    font-weight: bolder;
+}
+li.lighter{
+    font-weight: lighter;
+}
+li.one{
+    font-weight: 100;
+}
+li.two{
+    font-weight: 200;
+}
+li.three{
+    font-weight: 300;
+}
+li.four{
+    font-weight: 400;
+}
+li.five{
+    font-weight: 500;
+}
+li.six{
+    font-weight: 600;
+}
+li.seven{
+    font-weight: 700;
+}
+li.eight{
+    font-weight: 800;
+}
+li.nine{
+    font-weight: 900;
+}
+
+/* font-size */
+li.xx-small{
+    font-size: xx-small;
+}
+li.x-small{
+    font-size: x-small;
+}
+li.small{
+    font-size: small;
+}
+li.medium{
+    font-size: medium;
+}
+li.large{
+    font-size: large;
+}
+li.x-large{
+    font-size: x-large;
+}
+li.xx-large{
+    font-size: xx-large;
+}
+li.smaller{
+    font-size: smaller;
+}
+li.larger{
+    font-size: larger;
+}
+li.length{
+    font-size: 50px;
+}
+li.percent{
+    font-size: 120%;
+}
+
+/*font-stretch*/
+li.normal{
+    font-stretch: normal;
+}
+li.ultra-condensed{
+    font-stretch: ultra-condensed;
+}
+li.extra-condensed{
+    font-stretch: extra-condensed;
+}
+li.condensed{
+    font-stretch: condensed;
+}
+li.semi-condensed{
+    font-stretch: semi-condensed;
+}
+li.semi-expanded{
+    font-stretch: semi-expanded;
+}
+li.expanded{
+    font-stretch: expanded;
+}
+li.extra-expanded{
+    font-stretch: extra-expanded;
+}
+li.ultra-expanded{
+    font-stretch: ultra-expanded;
+}
+
+/*font-kerning*/
+li.auto{
+    font-kerning: auto;
+}
+li.normal{
+    font-kerning: normal;
+}
+li.none{
+    font-kerning: none;
+}
+
+/*font-variant*/
+li.normal{
+    font-variant: normal;
+}
+li.small-caps{
+    font-variant: small-caps;
+}

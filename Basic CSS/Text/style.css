@@ -1,0 +1,278 @@
+p.text-indent {
+  /* text-indent: 50px; */
+  text-indent: -4em;
+  padding-left: 4em;
+  line-height: 2.5;
+}
+
+p.text-align-left {
+  text-align: left;
+  line-height: 10px;
+}
+
+p.text-align-center {
+  text-align: center;
+  line-height: 80%;
+}
+
+p.text-align-right {
+  text-align: right;
+  line-height: normal;
+}
+
+p.text-align-justify {
+  text-align: justify;
+}
+
+p.text-align-end {
+  text-align: end;
+}
+
+p.text-align-start {
+  text-align: start;
+}
+
+/* text-align-last */
+p.text-align-last-auto {
+  text-align-last: auto;
+}
+
+p.text-align-last-left {
+  text-align-last: left;
+}
+
+p.text-align-last-center {
+  text-align-last: center;
+}
+
+p.text-align-last-right {
+  text-align-last: right;
+}
+
+p.text-align-last-justify {
+  text-align-last: justify;
+}
+
+p.text-align-last-end {
+    text-align-last: end;
+}
+  
+
+p.text-align-last-start {
+  text-align-last: start;
+}
+
+img{
+    width: 100px;
+}
+
+/* vertical-align */
+span.vertical-align-baseline {
+  vertical-align: baseline;
+}
+
+span.vertical-align-sub {
+  vertical-align: sub;
+}
+
+span.vertical-align-super {
+  vertical-align: super;
+}
+
+/*word-spacing */
+p.word-spacing {
+  word-spacing: 40px;
+}
+
+/* letter-spacing */
+p.letter-spacing {
+    word-spacing: 30px;
+    letter-spacing: 10px;
+}
+
+/* text-transform */
+p.text-transform-uppercase {
+  text-transform: uppercase;
+}
+
+p.text-transform-lowercase {
+  text-transform: lowercase;
+}
+
+p.text-transform-capitalize {
+  text-transform: capitalize;
+}
+
+/*text-decoration */
+p.text-decoration-underline {
+  text-decoration: underline;
+}
+
+p.text-decoration-overline {
+  text-decoration: overline;
+}
+
+p.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+p.text-decoration-none {
+  text-decoration: none;
+}
+
+/*text-rendering */
+p.text-rendering-auto {
+  text-rendering: auto;
+}
+
+p.text-rendering-optimizeSpeed {
+  text-rendering: optimizeSpeed;
+}
+
+p.text-rendering-optimizeLegibility {
+  text-rendering: optimizeLegibility;
+}
+
+p.text-rendering-geometricPrecision {
+  text-rendering: geometricPrecision;
+}
+
+/* text-shadow */
+p.text-shadow {
+  text-shadow: -5px -5px 2px red;
+  /* 2px for horizontal offset, 2px for vertical offset, 5px for blur radius */ 
+  /* + + = shadow to the right and down */
+    /* + - = shadow to the right and up */
+    /* - + = shadow to the left and down */
+    /* - - = shadow to the left and up */
+}
+
+/* white-space */
+p.white-space-normal {
+  white-space: normal;
+}
+
+p.white-space-pre {
+  white-space: pre;
+}
+
+p.white-space-nowrap {
+  white-space: nowrap;
+}
+
+p.white-space-pre-line {
+  white-space: pre-line;
+}
+
+p.white-space-pre-wrap {
+  white-space: pre-wrap;
+}
+
+/*tab-size */
+p.tab-size {
+  tab-size: 20px;
+}
+
+/*word-break */
+p.word-break-normal {
+  word-break: normal;
+}
+
+p.word-break-break-all {
+  word-break: break-all;
+}
+
+p.word-break-keep-all {
+  word-break: keep-all;
+}
+
+
+/*hyphens */
+p.hyphens-auto {
+  hyphens: auto;
+}
+
+p.hyphens-manual {
+  hyphens: manual;
+}
+
+p.hyphens-none {
+  hyphens: none;
+}
+
+
+/*line-break */
+p.line-break-auto {
+  line-break: auto;
+}
+
+p.line-break-loose {
+  line-break: loose;
+}
+
+p.line-break-normal {
+  line-break: normal;
+}
+
+p.line-break-strict {
+  line-break: strict;
+}
+
+
+/*overflow-wrap */
+p.overflow-wrap-normal {
+  overflow-wrap: normal;
+}
+
+p.overflow-wrap-break-word {
+  overflow-wrap: break-word;
+}
+
+/*writing-mode */
+p.writing-mode-horizontal-tb {
+  writing-mode: horizontal-tb;
+}
+
+p.writing-mode-vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+p.writing-mode-vertical-lr {
+  writing-mode: vertical-lr;
+}
+
+p.writing-mode-sideways-rl {
+  writing-mode: sideways-rl;
+}
+
+p.writing-mode-sideways-lr {
+  writing-mode: sideways-lr;
+}
+
+/*text-orientation */
+p.text-orientation-mixed {
+  text-orientation: mixed;
+}
+
+p.text-orientation-upright {
+  text-orientation: upright;
+}
+
+p.text-orientation-sideways {
+  text-orientation: sideways;
+}
+
+p.text-orientation-sideways-right {
+  text-orientation: sideways-right;
+}
+
+
+/*direction */
+p.direction-ltr {
+  direction: ltr;
+}
+
+p.direction-rtl {
+  direction: rtl;
+}
+
